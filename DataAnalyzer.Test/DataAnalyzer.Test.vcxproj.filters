@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Doc_test.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DataAnalyzer\Doc.cpp">
+      <Filter>RefSourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{2371deb6-5310-4bd5-9390-63ea5ffac950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RefSourceFiles">
+      <UniqueIdentifier>{1077ffb0-3b15-4abc-8d13-bc3e0f28dd52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
