@@ -1,3 +1,4 @@
+#include"pch.h"
 #include "Doc.h"
 #include <fstream>
 #include <sstream>
